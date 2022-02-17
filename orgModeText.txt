@@ -1,0 +1,65 @@
+
+* Set up Dots Dev Env / Install SAS
+** Set up Windows computer 
+- [ ] Factory Reset
+- [ ] Instal Fllutter
+- [ ] Install Android studio  
+* Prepare for college reopenings
+** Shopping and repairs
+*** Clothing budget 15 Kgs
+**** Selfcare
+- [ ] Nail Cutter
+- [ ] Brush/paste
+- [ ] Shampoo/soap
+- [ ] Moisturizer
+**** Sleep Accessories
+- [ ] Blankets
+- [ ] jamkala
+**** Formals/Outside Wear
+- [ ] Jeans
+- [ ] Trousers
+- [ ] Shirts
+- [ ] Tie
+- [ ] Jacket
+**** Winterwear
+- [ ] Winterwear
+- [ ] Wintercaps
+- [ ] Thermals
+- [ ] Light Jackets
+- [ ] Sweaters
+- [ ] Heavy Jackets
+**** Homewear/undergarments
+- [ ] Towel
+- [ ] Underwear
+- [ ] T-Shirts
+*** Utensils budget 7 Kgs
+1. [ ] Cooker
+2. [ ] Katthi
+3. [ ] Bhagona
+4. [ ] idukki / Spoon / Karandi
+
+*** Repairs
+1. [X] Laptop    
+** Visa stuff
+1. [ ] Correspond with IDP for updating passport in the Immi Account
+   Want the passport to be updated on my Immi Account, correspond witht the IDP people.
+2. [ ] Fill up the CoE Extension form and email it to the cecs. Make sure Visa is extended
+** Courses stuff
+1. [ ] Decided on which courses to choose.
+2. [ ] Pay the fees for the new semester.
+** Accomodation applications
+1. [ ] Write application to uni Accomodations
+2. [ ] Contact people who are already there
+** International card payment stuff
+* Part time job applications
+** Resume template creation Latex deadline
+- [ ] Write a cover letter
+  Read the various oppurtinities available and select one closes to your portfolio.
+  Write a cover letter today based on the oppurtunity.[2021-12-17 Fri]
+  Send the resume and cover letter to the concerned website.
+- [X] Send a resume to the person from linkedIn with a cover letter
+- [X] Seek alerts
+- [ ] Indeed alerts
+- [ ] Uni Careers page Alerts
+
+* Packaging restrictions

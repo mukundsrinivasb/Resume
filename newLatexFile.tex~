@@ -1,0 +1,35 @@
+% Created 2021-12-17 Fri 23:49
+% Intended LaTeX compiler: pdflatex
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+\usepackage{longtable}
+\usepackage{wrapfig}
+\usepackage{rotating}
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{capt-of}
+\usepackage{hyperref}
+\author{Mukund Balaji Srinivas}
+\date{\textit{<2021-12-17 Fri>}}
+\title{helloworld}
+\hypersetup{
+ pdfauthor={Mukund Balaji Srinivas},
+ pdftitle={helloworld},
+ pdfkeywords={},
+ pdfsubject={},
+ pdfcreator={Emacs 25.3.1 (Org mode 8.2.10)}, 
+ pdflang={English}}
+\begin{document}
+
+\maketitle
+\section{Some section}
+\label{sec:org3eb8962}
+\subsection{Some subsection}
+\label{sec:org3dae03e}
+\subsubsection{Some sub sub section}
+\label{sec:orgc68d6e6}
+Emacs 25.3.1 (Org mode 8.2.10)
+\end{document}

@@ -1,0 +1,3 @@
+helloworld:helloworld.cpp
+	g++ -Wall -g helloworld.cpp -o hellowor
+ld.out
