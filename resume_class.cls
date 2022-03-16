@@ -8,9 +8,9 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{16}{20} \itshape \selectfont Flutter Developer  }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{16}{20} \itshape \selectfont Casual Work  }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com
+\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20} \selectfont 0405076587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 
