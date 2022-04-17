@@ -1,0 +1,61 @@
+\documentclass{resume_class}
+\pagecolor{White}
+\begin{document}
+%%%
+\pagestyle{resume}
+%%%
+%Work
+\section{Work}
+%%Latest Okami Experience
+\designation{Kitchen Staff}{Okami - All You Can Eat , Braddon}{February - \textit{present}}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+	\item \mdseries  {Food Preparation }
+	\item \mdseries  {Setup and Maintenance of dishwasher}
+	\item \mdseries  {Cleaning Dishes}
+
+\end{itemize}
+%%Latest IIT-M Dev expirence
+\designation{Project Associate}{Indian Institute of Technology - Madras, India}{August to December 2021}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+	\item \mdseries  {Entering sensor information for front-end tests in JSON }
+	\item \mdseries  {Communicating with hardware and networking teams to include changes in the front-end}
+\end{itemize}
+
+%%Amnex Experience
+\designation{GIS Consultant}{Amnex Infotech - Ahmedabad, India}{July to December 2019}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+	\item \mdseries  {Responding to queries by the technical and non-technical teams of the organization.}
+	\item \mdseries  {Having a good working relationship with all the teams involved in image classification and ground verification by continued communication, thus ensuring the report is accurate. Compile reports and supporting documents.}
+	\item \mdseries  {Make reports on short notice, when requested by management.  }
+	\item \mdseries {Manually edit computer generated maps, ensuring a clean and aesthetically pleasing report. }
+	\item \mdseries {Recording and executing last minute changes inculcated in a published report in the backend system.}
+	
+\end{itemize}
+%%%
+%%Education
+\section{Education}
+%ANU 
+\designation{Masters in Computing}{Australian National University, Canberra}{Feb 2021 - \textit{present}}
+%BIT Mesra
+\designation{Masters of Technology, Remote Sensing}{Birla Institute of Technology, Mesra}{June 2017 - June 2019}
+%SASTRA Uni
+\designation{Bachelors of Technology, Civil Engineering}{SASTRA University, Tanjore}{June 2012 - Nov 2016}
+%%%
+%%Skills
+\section{Skills}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt , label =  {\small $\bullet$} ] 
+	\item \mdseries \Large  {Interpersonal Skills }
+	\item \mdseries \Large {Microsoft Excel }
+	\item \mdseries \Large  {Comprehensive written and oral communication skills }
+\end{itemize}
+
+%%%
+%%Hobbies, Languages
+\section{Extra Curriculars }
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt , label =  {\small $\bullet$} ] 
+%%	\item \mdseries \large  {Music \hspace {0.1 mm} $ \boldsymbol{|} $ }  \normalsize{Carnatic Classical Vocal} 
+%%	\item \mdseries \large {Sports \hspace {0.15 mm}$ \boldsymbol{|} $ }  \normalsize {Badminton , Tennis}
+	\item \mdseries \large  {Languages $ \boldsymbol{|} $ }  \normalsize{Telugu, Tamil, Hindi} 
+\end{itemize}
+
+\end{document}

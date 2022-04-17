@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume_class}[2022/01/01 A resume of a software engineer]
+\ProvidesClass{resume_class}[2022/04/06 A resume of a software engineer]
 \LoadClass{article}
 \RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern}
 \RequirePackage[dvipsnames]{xcolor}
@@ -8,9 +8,9 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{16}{20} \itshape \selectfont Casual Work  }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{16}{20} \itshape \selectfont Casual \backslash Part-Time   }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20} \selectfont 0405076587
+\fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\  \fontsize{14}{20} \selectfont 0405076587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 

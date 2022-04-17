@@ -1,0 +1,8 @@
+#ignore all logs 
+*.log
+#ignore all makefiles
+*.mk
+#ignore all gz files
+*.gz
+#ignore all synctex files
+*.synctex
