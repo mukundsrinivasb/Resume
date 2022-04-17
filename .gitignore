@@ -5,4 +5,5 @@
 #ignore all gz files
 *.gz
 #ignore all synctex files
-*.synctex
+*.synctex.gz
+#ignore all the 
