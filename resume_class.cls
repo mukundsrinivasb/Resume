@@ -8,9 +8,9 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{16}{20} \itshape \selectfont Casual \backslash Part-Time   }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Kingsley Street, Acton, ACT, Australia 2601   }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\  \fontsize{14}{20} \selectfont 0405076587
+\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 
@@ -36,7 +36,7 @@ marginparsep  = 10 pt
 {\LARGE\scshape\raggedright\bf}
 {}{0em}
 {}
-[\color{blue}\titlerule]
+[\color{black}\titlerule]
 %%%
 %Define a sub-title section with three parameters 
 %Designation | Company | Timeframe
