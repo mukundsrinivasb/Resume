@@ -6,4 +6,7 @@
 *.gz
 #ignore all synctex files
 *.synctex.gz
-#ignore all the 
+#ignore all the .txt files
+*.txt
+#ignore all the .cpp files
+*.cpp

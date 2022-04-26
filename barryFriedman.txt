@@ -1,6 +1,0 @@
-﻿@misc{RN8,
-   url = {https://perma.cc/5FG6-53JS},
-   year = {2018},
-   type = {Newspaper Article}
-}
-
