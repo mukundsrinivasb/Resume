@@ -10,3 +10,8 @@
 *.txt
 #ignore all the .cpp files
 *.cpp
+#ignore all the .aux files
+*.aux
+#ignore all the .xml files
+*.xml
+
