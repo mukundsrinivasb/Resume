@@ -14,4 +14,6 @@
 *.aux
 #ignore all the .xml files
 *.xml
+#ignore all pdf files 
+*.pdf
 
