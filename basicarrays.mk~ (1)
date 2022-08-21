@@ -1,2 +1,0 @@
-basicarray:basicarrays.cpp
-	g++ -Wall -g basicarrays.cpp -o basicarraysx.out

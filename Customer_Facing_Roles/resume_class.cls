@@ -1,8 +1,7 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume_class_casual}[2022/19/07 A resume template for any job]
+\ProvidesClass{resume_class}[2022/04/06 A resume template for any job]
 \LoadClass{article}
 \RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern}
-\RequirePackage[skip=8pt plus1pt, indent=40pt]{parskip}
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage[T1]{fontenc}
 %%%Defining Headers
@@ -11,7 +10,7 @@
 \fancyhead[L]{ 
 \fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Kingsley Street, Acton, ACT, Australia 2601   }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
+\fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\  \fontsize{14}{20}   \selectfont +61 405 076 587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 
