@@ -1,0 +1,92 @@
+\documentclass[a4paper]{article}
+\usepackage{booktabs,amsmath,varwidth}
+\title{COMP6262 Logic Assignment - 3}
+\author{Mukund Balaji Srinivas - u7274095}
+\begin{document}
+\maketitle
+%%Introduction to the problem
+\section*{Introduction}
+Unlike the implication used in = natural language that can indicate causation, formal logic on the other hand is un-intuitive. Consider an example the phrase \textit{philosophers are superhuman } can have two different meanings. If one is a philosopher, one is superhuman or all superhuman are philosophers. \linebreak  
+To circumvent these ambiguities, formal logic defines a truth table as below : 
+\begin{center}
+\begin{tabular}{|c|c|c|}
+	$p$ & $q$ & $p \rightarrow q$ \\
+	\midrule
+	$1$ & $1$ & $1$ \\
+	$1$ & $0$ & $0$ \\
+	$0$ & $1$ & $1$ \\
+	$0$ & $0$ & $1$ \\	
+\end{tabular}
+\end{center}
+However, such strict interpretations are often at odds with the way implication is perceived in natural language. and thus are paradoxical\\
+This discussion shall be centered around the following implications:
+\begin{enumerate}
+	\item{$A \vdash (A \rightarrow B)$}
+	\item{$\lnot B \vdash (A \rightarrow B)$}	
+\end{enumerate}
+Following which a new paradigm for solving implication shall be introduced that circumvent the demerits of the first definition
+
+\section*{Solution to the paradox}
+The objective of introducing a new paradigm to precisely and coherently formalize the implication used in natural language would be :
+\begin{center}
+	\begin{tabular}{|c|c|c|}
+		$p$ & $q$ & $p \rightarrow q$ \\
+		\midrule
+		$1$ & $1$ & $1$ \\
+		$1$ & $0$ & $0$ \\
+		$0$ & $1$ & $0$ \\
+		$0$ & $0$ & $1$ \\	
+	\end{tabular}
+\end{center}
+\pagebreak
+The merits and demerits along with the proofs of sequents [1] and [2] from the introduction should be discussed by proving them using both the old and new natural deduction rules that need to be introduced.\\
+%% Elimination rules
+\begin{center}
+		\begin{tabular}{c c}
+			 Modified Implication Elimination ... (1)\\
+			\midrule 
+			 $X\vdash A \rightarrow B $ & $ Y\vdash \lnot B$  \\ 	\midrule
+			  \hspace{5em} $X,Y \vdash \lnot B$
+		% 		
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{c c}
+		Modified Implication Elimination ... (2)\\
+		\midrule 
+		$X\vdash A \rightarrow B $ & $ Y\vdash A$  \\ 	\midrule
+		\hspace{5em} $X,Y \vdash  B$
+		% 
+		
+		
+	\end{tabular}
+\end{center}
+
+%% Introduction rules
+\begin{center}
+	\begin{tabular}{c c}
+		Modified Implication Introduction ... (3)\\
+		\midrule 
+		$X,A\vdash B $  \\ 	\midrule
+		\hspace{5em} $X\vdash A\rightarrow B$
+		% 		
+	\end{tabular}
+\end{center}
+
+\begin{center}
+	\begin{tabular}{c c}
+		Modified Implication Introduction ... (4)\\
+		\midrule 
+		$X,\lnot A \vdash \lnot B $  \\ \midrule
+		\hspace{5em} $X \vdash \lnot A \rightarrow \lnot B$
+		% 
+		
+		
+	\end{tabular}
+\end{center}
+
+
+	
+
+\end{document}
