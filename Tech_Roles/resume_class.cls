@@ -1,19 +1,21 @@
 \NeedsTeXFormat{LaTeX2e}
 \ProvidesClass{resume_class}[2022/04/06 A resume template for any job]
 \LoadClass{article}
-\RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern}
+\RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern,fontawesome}
+
 \RequirePackage[dvipsnames]{xcolor}
 \RequirePackage[T1]{fontenc}
 %%%Defining Headers
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Kingsley Street, Acton, ACT, Australia 2601   }
+\fontsize{30}{30} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Kingsley Street, Acton, ACT, Australia 2601   }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\  \fontsize{14}{20}   \selectfont +61 405 076 587
+  \fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\
+  \fontsize{14}{20}  \selectfont +61 405 076 587
 }
 \renewcommand{\headrulewidth}{0 pt} 
-} 
+}
 %Paper layout 
 \geometry{
 a4paper, 
