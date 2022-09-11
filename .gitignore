@@ -1,0 +1,8 @@
+*
+!.gitignore
+!Tech_Roles/*.tex
+!Tech_Roles/*.cls
+!Customer_Facing_Roles/*.tex
+!Customer_Facing_Roles/*.cls
+!BlueCollar_Roles/*.tex
+!BlueCollar_Roles/*.cls
