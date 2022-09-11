@@ -1,3 +1,15 @@
-Tech_Roles/*.pdf
-Tech_Roles/*.log
+**/*.pdf
+**/*.log
+**/*.aux
+**/*.lof
+**/*.log
+**/*.lot
+**/*.fls
+**/*.out
+**/*.toc
+**/*.fmt
+**/*.fot
+**/*.cb
+**/*.cb2
+**/.*.lbt
 
