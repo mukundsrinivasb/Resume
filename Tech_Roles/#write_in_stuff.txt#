@@ -4,6 +4,7 @@ Here's some information to share:
 The SII team again needs to expand our software engineering teams for our growing projects. We are interested in recommendations of interested students or software engineering staff with the skills and spare capacity who'd like to work in the School's Software Engineering group led by Graham, and be part of this critical mass of software engineering expertise in the School. Candidates should have published code demonstrating their skills. We particularly seek students and staff from different backgrounds to bring different ideas and a range of perspectives to our engineering projects with collaborators. Skills should include one or more of flutter (front end), python, Solid PODS, API development, UI/UX, open source development, differential privacy, and machine learning. Opportunities are available at different levels based on the applicant's skills and experience. About the Software Innovation Institute SII works with government, researchers, industry and community groups on data science software engineering projects. We build software for public good using the latest techniques and technologies in computer science, with a particular focus on data privacy, machine learning and knowledge graphs. More information can be found at https://sii.anu.edu.au
 
 
+
 Flutter app development for a modular IoT platform in .
 Automated wrangling of data from the MQTT server
 Unit testing for accuracy and performance of automated data wrangling modules
@@ -14,4 +15,12 @@ Manual testing
 
 Skills
 Websockets,dart,flutter
+
+
+Tie in Amnex work ex with UI roles
+
+Develop satellite image visualization solutions based on google earth engine
+Test and modify internal tools to automate the image classification workflow
+
+
 
