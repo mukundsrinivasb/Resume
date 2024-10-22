@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume_class}[2022/04/06 A resume template for any job]
+\ProvidesClass{resume_class}[2022/15/09 A resume template for any job]
 \LoadClass{article}
 \RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern}
 \RequirePackage[dvipsnames]{xcolor}
@@ -8,7 +8,7 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Kingsley Street, Acton, ACT, Australia 2601   }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 39 Phillip Avenue , Watson , ACT - 2602 }
 \fancyhead[R]{ 
 \fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
 }
