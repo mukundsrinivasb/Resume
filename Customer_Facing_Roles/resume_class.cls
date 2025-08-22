@@ -1,5 +1,5 @@
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{resume_class}[2022/15/09 A resume template for any job]
+\ProvidesClass{resume_class}[2025/22/08 A resume template for any retail or customer facing role]
 \LoadClass{article}
 \RequirePackage{titlesec,amsmath,layout,geometry,fancyhdr,lipsum,enumitem,lmodern}
 \RequirePackage[dvipsnames]{xcolor}
@@ -8,7 +8,7 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 39 Phillip Avenue , Watson , ACT - 2602 }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 30 Chipp Street, Coombs, ACT - 2611 }
 \fancyhead[R]{ 
 \fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
 }
@@ -23,7 +23,7 @@ headsep = 20 pt,
 headheight = 90 pt ,
 footskip = 10 pt,
 top = 120 pt,
-left = 35 pt,
+left = 33 pt,
 marginparwidth = 45 pt,
 marginparsep  = 10 pt
 }
