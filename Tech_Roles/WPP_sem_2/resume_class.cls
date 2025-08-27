@@ -10,7 +10,7 @@
 \fancyhead[L]{ 
 \fontsize{35}{35} \selectfont Mukund Srinivas }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundbalaji.srinivas@anu.edu.au \\  \fontsize{14}{20}   \selectfont +61 405 076 587
+\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 
