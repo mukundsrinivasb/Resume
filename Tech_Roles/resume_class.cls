@@ -17,11 +17,11 @@
 %Paper layout 
 \geometry{
 a4paper, 
-textheight = 660 pt,
+textheight = 700 pt,
 textwidth = 520 pt,
 headsep = 20 pt,
 headheight = 90 pt ,
-footskip = 10 pt,
+footskip = 5 pt,
 top = 120 pt,
 left = 35 pt,
 marginparwidth = 45 pt,

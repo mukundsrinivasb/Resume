@@ -1,0 +1,32 @@
+\documentclass{letter}
+\usepackage[shortlabels]{enumitem}
+\signature{\href{https://www.linkedin.com/in/your-linkedin-profile}{\mbox{Mukund Balaji Srinivas}}}
+\usepackage[a4paper, total={7in, 9in}]{geometry}
+\usepackage{hyperref}
+
+% Reduce default letter.cls closing gap from 6\medskipamount (3 lines) by 2 vertical spaces to 2\medskipamount (1 line)
+\makeatletter
+\renewcommand{\closing}[1]{\par\nobreak\vspace{\parskip}%
+  \stopbreaks
+  \noindent
+  \ifx\@empty\fromaddress\else
+  \hspace*{\longindentation}\fi
+  \parbox{\indentedwidth}{\raggedright
+       \ignorespaces #1\\[2\medskipamount]%
+       \ifx\@empty\fromsig
+           \fromname
+       \else \fromsig \fi\strut}%
+   \par}
+\makeatother
+%%The cover letter
+\begin{document}
+\begin{letter}{Hiring Team\\Gallagher}
+\opening{Respected Sir/Madam,}
+
+The IoT Engineer role at eShepheard is an exciting match for my background and interests. Looking closely at Gallagher's solar-powered, GPS-connected neckbands, which combine virtual geofencing with real-time auditory cues as livestock approach a boundary and graduated pulse feedback that scales with distance outside it before ceasing once they return, highlights the depth of systems engineering behind the product. Working on a globally deployed platform with strong potential for integration across edge devices, cloud pipelines, and external farm systems would be both deeply engaging and invaluable exposure to systems engineering.
+
+As a postgraduate international student at the Australian National University completing a Master of Computing, I am eager to secure a graduate engineering role, and would also be more than happy to consider an internship opportunity, that aligns with my technical background in IoT systems, networking, and embedded software. Ahead of interviews, please note that I am currently on a Student Visa with final results due on \textbf{12 December 2026}, immediately after which I will lodge my \textbf{Temporary Graduate visa (Subclass 485)} valid for \textbf{three years} of full-time work rights, and I am more than happy to relocate to any location where the role is based.
+
+\closing{Regards,}
+\end{letter}
+\end{document}
