@@ -10,7 +10,7 @@
 \fancyhead[L]{ 
 \fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 28 Springvale Drive, Hawker, ACT, Australia 2614   }
 \fancyhead[R]{ 
-\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont +61 405 076 587
+\fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont 0405 076 587
 }
 \renewcommand{\headrulewidth}{0 pt} 
 } 
@@ -47,7 +47,7 @@ marginparsep  = 10 pt
   }
 }
 \newcommand{\project}[4]{%
-  \subsection[#1]{\Large \bfseries{\href{#2}{#1}} $  \boldsymbol{|} $ \large #3%
+  \subsection[#1]{\Large \bfseries{\href{#2}{\textcolor{blue}{#1}}} $  \boldsymbol{|} $ \large #3%
   \if\relax\detokenize{#4}\relax\else \\[3pt] \mdseries {#4}\fi%
   }
 }
