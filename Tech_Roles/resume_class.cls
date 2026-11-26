@@ -8,7 +8,7 @@
 \fancypagestyle{resume}{
 \fancyhf{}
 \fancyhead[L]{ 
-\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 28 Springvale Drive, Hawker, ACT, Australia 2614   }
+\fontsize{35}{35} \selectfont Mukund Srinivas \\ \fontsize{13}{20} \itshape \selectfont 28 Springvale Drive, Hawker, ACT - 2614}
 \fancyhead[R]{ 
 \fontsize{14}{20} \selectfont mukundsrinivasb@hotmail.com \\  \fontsize{14}{20}   \selectfont 0405 076 587
 }

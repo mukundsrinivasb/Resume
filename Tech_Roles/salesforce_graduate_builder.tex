@@ -1,0 +1,62 @@
+
+\documentclass{resume_class}
+\pagecolor{White}
+\usepackage{hyperref}
+\begin{document}
+%%%
+\pagestyle{empty}
+\thispagestyle{resume}
+%%%
+%% Education
+\section{Education}
+\designation{Masters in Computing}{Australian National University, Canberra}{Feb 2021 - Present}
+\designation{Masters of Technology, Remote Sensing}{Birla Institute of Technology, Mesra}{June 2017 - June 2019}
+\designation{Bachelors of Technology, Civil Engineering}{SASTRA University, Tanjore}{June 2012 - Nov 2016}
+
+%% Projects
+\section{Projects}
+%% Bot automation (addresses: "agents that take real actions ... in production")
+\project{Autonomous Goal-Tracking Bots}{https://github.com/mukundsrinivasb/goal_tracking}{GitHub Actions, Python, C }{Agentic - AI}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
+    \item \mdseries {Built and run daily an unattended bot pipeline on GitHub Actions (push, cron, chained triggers): parses plans in Python, syncs tasks to a Turso (libSQL) cloud database with idempotent inserts, validates artifacts, and commits updates back to the repo.}
+\end{itemize}
+\project{Computer Networks}{https://github.com/mukundsrinivasb/computer_networks/tree/master/assignments/assignment3}{IoT, MQTT, AWS, Linux}{Python}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
+    \item \mdseries {Designed, built, and deployed an IoT application on AWS from initial system design specifications, collecting and reporting edge telemetry over MQTT.}
+    \item \mdseries {Designed a Gopher client in Python over TCP sockets to query a remote server, parse incoming data packets and multi-line streams, and render structured resources on the client side.}
+\end{itemize}
+%% Concurrency & Systems Project
+\project{Concurrency}{https://github.com/mukundsrinivasb/networks-and-concurrency}{Memory Management, Multi-Threading, Sockets, Linux}{C}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
+    \item \mdseries {Engineered a concurrent, multi-threaded networked train traffic control system in C on Linux using TCP sockets and POSIX threads, implementing thread-safe request routing and synchronization across distributed station nodes.}
+    \item \mdseries {Implemented a custom dynamic memory allocator in C (\texttt{mmap}, explicit free lists, constant-time coalescing)}
+\end{itemize}
+% Work Experience
+\section{Work Experience}
+
+%% Coles Experience
+\designation{Customer Service Team Member}{Coles Group}{April 2024 - Present}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+    \item \mdseries {Resolved customer queries and operated point-of-sale systems with high transaction accuracy.}
+\end{itemize}
+%% Amnex Experience (GIS roles only)
+% \designation{GIS Consultant}{Amnex Infotech - Ahmedabad, India}{July 2019 - December 2019}
+% \begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
+%     \item \mdseries {Processed and validated spatial data and image classification pipelines, coordinating across technical and field teams to ensure data integrity.}
+%     \item \mdseries {Authored technical documentation and analytical reports on short notice, translating complex spatial outputs for engineering and management teams.}
+% \end{itemize}
+%
+%% IIT-M Experience
+\designation{Project Associate}{Indian Institute of Technology - Madras, India}{August 2021 - December 2021}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+    \item \mdseries {Validated hardware sensor telemetry payloads in JSON and integrated device updates into the front-end.}
+\end{itemize}
+
+
+%% RattleNG Experience
+\designation{Software Developer}{RattleNG Project}{November 2023 - December 2024}
+\begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt] 
+    \item \mdseries {Migrated \href{https://github.com/gjwgit/rattleng}{RattleNG}, a data analytics platform, from C (RGTK2) to Flutter via Git code reviews.}
+\end{itemize}
+
+\end{document}
