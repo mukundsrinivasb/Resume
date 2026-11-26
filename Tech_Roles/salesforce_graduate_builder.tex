@@ -18,7 +18,8 @@
 %% Bot automation (addresses: "agents that take real actions ... in production")
 \project{Autonomous Goal-Tracking Bots}{https://github.com/mukundsrinivasb/goal_tracking}{GitHub Actions, Python, C }{Agentic - AI}
 \begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
-    \item \mdseries {Built and run daily an unattended bot pipeline on GitHub Actions (push, cron, chained triggers): parses plans in Python, syncs tasks to a Turso (libSQL) cloud database with idempotent inserts, validates artifacts, and commits updates back to the repo.}
+    \item \mdseries {Run daily in production: unattended GitHub Actions bots (push, cron, chained triggers) built on small, reusable Python modules, syncing tasks to Turso (libSQL) with duplicate-safe inserts.}
+    \item \mdseries {Added automated checks that verify each daily log and image, plus ESP32 firmware in C (ESP-IDF, FreeRTOS) that queries the database nightly over Wi-Fi/TLS and lights an LED if tomorrow's plan is missing.}
 \end{itemize}
 \project{Computer Networks}{https://github.com/mukundsrinivasb/computer_networks/tree/master/assignments/assignment3}{IoT, MQTT, AWS, Linux}{Python}
 \begin{itemize}[leftmargin = 10pt , labelsep = 3pt , parsep = 0pt , itemsep = 2pt]
